@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-963</X>
-                  <Y>193</Y>
+                  <X>-1362</X>
+                  <Y>202</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.5220064</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.850000143</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -85,9 +85,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">41</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">42</item>
           </items>
-          <chunks count="41">
+          <chunks count="42">
             <chunk name="Object" index="0">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
@@ -135,7 +135,7 @@ COMPAS FAB v0.27.0</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="525">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDgAACw4BQL7hQQAAAa9JREFUSEvtlLFtAkEQRekAOsAdQAdcCdcBdAAdcOFlIMsZAUgUAKIAcAdc6AxCZxA6W/833kXLcXByZkt86Yu92b8zszOzNJ74H3DOJeJarMNZXIgv/mg9JJ6eTic3Ho9dp9NxmO6x1+u5+XweAg1kewyJRjgPjvklUBWHw6Frt9um6/f7BAFdc1QFbbbEM1nxGWX2/oDmHD1BsZmzKmhzsN/vY3Ehtn52q6H9rmhJNZtNznC+Eslms/nAsdbucDi4NE1tHZHsMvEqqHxOuS3L3W7H7w0Wosvz/CsEoA/L5RI7DiHrgj3xKF6mRgEy77gyAJ3HyKjlq9XKhL7+awQlBD3BQt+OoQ8khj0G2cBQT6sl04FY4C2kIu/CuN1u35KEpXsVi9A3+iCc8RVALdmkBAYJ1uEWBJpMJnbte2RUg5a+CSNz5MHMIrgYJeDKBYfDjNeRzL1z+nQDRFcbPgg9cVy/nHVM75i3cqlCGTZBYmJfEXSIQNQ/i5jPZrPPLGPppuLNuTLoA40hCFlw4B6ZIAYCbf3/TgRmmkdkNa0hyfzKeQwCVWUe84k/j0bjG/2ZE4aEZt9PAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="525">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDQAACw0B7QfALAAAAa9JREFUSEvtlLFtAkEQRekAOsAdQAdcCdcBdAAdcOFlIMsZAUgUAKIAcAdc6AxCZxA6W/833kXLcXByZkt86Yu92b8zszOzNJ74H3DOJeJarMNZXIgv/mg9JJ6eTic3Ho9dp9NxmO6x1+u5+XweAg1kewyJRjgPjvklUBWHw6Frt9um6/f7BAFdc1QFbbbEM1nxGWX2/oDmHD1BsZmzKmhzsN/vY3Ehtn52q6H9rmhJNZtNznC+Eslms/nAsdbucDi4NE1tHZHsMvEqqHxOuS3L3W7H7w0Wosvz/CsEoA/L5RI7DiHrgj3xKF6mRgEy77gyAJ3HyKjlq9XKhL7+awQlBD3BQt+OoQ8khj0G2cBQT6sl04FY4C2kIu/CuN1u35KEpXsVi9A3+iCc8RVALdmkBAYJ1uEWBJpMJnbte2RUg5a+CSNz5MHMIrgYJeDKBYfDjNeRzL1z+nQDRFcbPgg9cVy/nHVM75i3cqlCGTZBYmJfEXSIQNQ/i5jPZrPPLGPppuLNuTLoA40hCFlw4B6ZIAYCbf3/TgRmmkdkNa0hyfzKeQwCVWUe84k/j0bjG/2ZE4aEZt9PAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">37011f8c-f0c0-4f8f-9efe-b1359c21a95e</item>
@@ -391,7 +391,7 @@ COMPAS FAB v0.27.0</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="377">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDgAACw4BQL7hQQAAARtJREFUSEvtlE0NwkAQhSsBCUhAAhKQgAQUECQQLlw5cUYCEpCABBzA+5K+ZFJ2Ctu0BxJe8qV0f2Zm32xp/pJmYtM+J9FFPMVDrBjoE1WcxFWwcSkyrcVdENxPYO9cFMVkdwNJCLYLxHl+UxhBvf8m3sQCTx7Ftn3fC9tQomvLQhRPzgQbzoIkh/adBNgWg0a6wVJ7EIHZ5CdQIUk4vqGhnrcd2IR9jGFbUZzCPhIE70sVMUYwF4KF7gvP9HK4oW6aK8qOzbrYcNYz1qtoj+FUmUhOYVkRb2JxNwGkxx6i0q1JGzdEHDfeFIPHo8kNjpD0YxNrFG+Iwb7RNEnD+WpLQTOwjQ/0a/lLrqGq+ZMn4K+CJDVUWfRLapoXL/6lx2dCL2QAAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="377">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDQAACw0B7QfALAAAARtJREFUSEvtlE0NwkAQhSsBCUhAAhKQgAQUECQQLlw5cUYCEpCABBzA+5K+ZFJ2Ctu0BxJe8qV0f2Zm32xp/pJmYtM+J9FFPMVDrBjoE1WcxFWwcSkyrcVdENxPYO9cFMVkdwNJCLYLxHl+UxhBvf8m3sQCTx7Ftn3fC9tQomvLQhRPzgQbzoIkh/adBNgWg0a6wVJ7EIHZ5CdQIUk4vqGhnrcd2IR9jGFbUZzCPhIE70sVMUYwF4KF7gvP9HK4oW6aK8qOzbrYcNYz1qtoj+FUmUhOYVkRb2JxNwGkxx6i0q1JGzdEHDfeFIPHo8kNjpD0YxNrFG+Iwb7RNEnD+WpLQTOwjQ/0a/lLrqGq+ZMn4K+CJDVUWfRLapoXL/6lx2dCL2QAAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">4c42faf3-2668-4b88-bdca-4df2c4729344</item>
@@ -582,7 +582,7 @@ COMPAS FAB v0.27.0</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="455">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDgAACw4BQL7hQQAAAWlJREFUSEvllLFKA0EQhu8RfACVGLCwEIKVZWorSaNlHsFHuCeQNJJW7GwkLyCksA6pbCOWVtdb/O6nOzAee+ftqSD4w8/O7e78s7Mze8X/xUYaRLM/TqTp8K5ab18+CO7O19XBSouJdIYtaStuzQOOCCE6uNk8Hb1qdiyVh8+6tmBwLF1ElzwgiACCceodBN67fXm0AGQXl7rjShrhTAZxCkwDy5356pxMWCMz9mXXAoGa42mgHD9di6vDOHD0YbZg/15LThc/QRmIMHM2IuaFl4F2AOzm4lv68RNQBx/AMzUHZ4FpJK7In64KpB5ck5+HPhPGNBCuFdkyYKynTjDWCOyDNgcAtKkLgDNMgYCsIerZ+X3YCX3L1kHn8B7YRzCaojMQxpFAPw7St5S/7u9MIG7Fbbr/3qA97U6N3/81O1ir+UfU/HB6wITpBoSx2/s6E/XrgW1tmg06xj8e7F/pIv4t8C+jKN4ASwXmn69GZ5oAAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="455">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDQAACw0B7QfALAAAAWlJREFUSEvllLFKA0EQhu8RfACVGLCwEIKVZWorSaNlHsFHuCeQNJJW7GwkLyCksA6pbCOWVtdb/O6nOzAee+ftqSD4w8/O7e78s7Mze8X/xUYaRLM/TqTp8K5ab18+CO7O19XBSouJdIYtaStuzQOOCCE6uNk8Hb1qdiyVh8+6tmBwLF1ElzwgiACCceodBN67fXm0AGQXl7rjShrhTAZxCkwDy5356pxMWCMz9mXXAoGa42mgHD9di6vDOHD0YbZg/15LThc/QRmIMHM2IuaFl4F2AOzm4lv68RNQBx/AMzUHZ4FpJK7In64KpB5ck5+HPhPGNBCuFdkyYKynTjDWCOyDNgcAtKkLgDNMgYCsIerZ+X3YCX3L1kHn8B7YRzCaojMQxpFAPw7St5S/7u9MIG7Fbbr/3qA97U6N3/81O1ir+UfU/HB6wITpBoSx2/s6E/XrgW1tmg06xj8e7F/pIv4t8C+jKN4ASwXmn69GZ5oAAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">a2fc7042-7030-43fd-95bf-cc25390657b9</item>
@@ -618,7 +618,7 @@ COMPAS FAB v0.27.0</item>
                       </items>
                       <chunks count="5">
                         <chunk name="InputParam" index="0">
-                          <items count="11">
+                          <items count="12">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">The robot.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">e761dba6-25df-43e3-8b03-379a54cbf2d6</item>
@@ -627,7 +627,8 @@ COMPAS FAB v0.27.0</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">684fb5d1-8914-47c6-89bb-5a916ae7b90c</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">87f87f55-5b71-41f4-8aea-21d494016f81</item>
                             <item name="WireDisplay" type_name="gh_int32" type_code="3">2</item>
                           </items>
@@ -773,35 +774,6 @@ COMPAS FAB v0.27.0</item>
             </chunk>
             <chunk name="Object" index="5">
               <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
-                <item name="Name" type_name="gh_string" type_code="10">Group</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="12">
-                    <item name="Border" type_name="gh_int32" type_code="3">1</item>
-                    <item name="Colour" type_name="gh_drawing_color" type_code="36">
-                      <ARGB>150;178;255;255</ARGB>
-                    </item>
-                    <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
-                    <item name="ID" index="0" type_name="gh_guid" type_code="9">37011f8c-f0c0-4f8f-9efe-b1359c21a95e</item>
-                    <item name="ID" index="1" type_name="gh_guid" type_code="9">12e98163-3437-452e-8ae4-b1b179f3a3ec</item>
-                    <item name="ID" index="2" type_name="gh_guid" type_code="9">4c42faf3-2668-4b88-bdca-4df2c4729344</item>
-                    <item name="ID" index="3" type_name="gh_guid" type_code="9">18783c23-72dc-4e14-956e-753321c51403</item>
-                    <item name="ID" index="4" type_name="gh_guid" type_code="9">e2ed4e12-f0cc-4e6f-b951-6f40f7143e2e</item>
-                    <item name="ID_Count" type_name="gh_int32" type_code="3">5</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">18a85c44-0a9f-426b-a575-356b39e3e637</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Group</item>
-                    <item name="NickName" type_name="gh_string" type_code="10"></item>
-                  </items>
-                  <chunks count="1">
-                    <chunk name="Attributes" />
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="6">
-              <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
               </items>
@@ -853,7 +825,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="7">
+            <chunk name="Object" index="6">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -906,7 +878,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="8">
+            <chunk name="Object" index="7">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2e78987b-9dfb-42a2-8b76-3923ac8bd91a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Boolean Toggle</item>
@@ -926,8 +898,8 @@ COMPAS FAB v0.27.0</item>
                     <chunk name="Attributes">
                       <items count="1">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>788</X>
-                          <Y>232</Y>
+                          <X>1980</X>
+                          <Y>274</Y>
                           <W>104</W>
                           <H>22</H>
                         </item>
@@ -937,7 +909,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="9">
+            <chunk name="Object" index="8">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -1123,7 +1095,7 @@ COMPAS FAB v0.27.0</item>
                       </items>
                       <chunks count="17">
                         <chunk name="InputParam" index="0">
-                          <items count="11">
+                          <items count="12">
                             <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
                             <item name="Description" type_name="gh_string" type_code="10">The robot.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">9d097ddb-0f84-4175-8977-518489447785</item>
@@ -1132,7 +1104,8 @@ COMPAS FAB v0.27.0</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+                            <item name="Source" index="0" type_name="gh_guid" type_code="9">684fb5d1-8914-47c6-89bb-5a916ae7b90c</item>
+                            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                             <item name="TypeHintID" type_name="gh_guid" type_code="9">87f87f55-5b71-41f4-8aea-21d494016f81</item>
                             <item name="WireDisplay" type_name="gh_int32" type_code="3">2</item>
                           </items>
@@ -1613,7 +1586,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="10">
+            <chunk name="Object" index="9">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -1666,7 +1639,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="11">
+            <chunk name="Object" index="10">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -1703,7 +1676,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="12">
+            <chunk name="Object" index="11">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -1759,7 +1732,7 @@ COMPAS FAB v0.27.0</item>
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="925">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAz9JREFUSEutVFtPE0EY5aKgL+iPMAbwguGiYLgqEFpBFKTVggWCNEGDMSpoQtsoYDTRRCNvPJhoYqKC2IKi0YKFBxGBAEoRCdTiLZVrhGDF3Z3jt+vERy2Vk5zs7sw538x83zfr5w0A+BNX8c+VB242jrKaK99okTV8aOUg737edMHjUOUAldWv6TuBT60MKOBqsfry/LBag7EsrTC+Xyeg/MxHPr0yQN9oJ2ofMVbTAlS3YCQzj+Fa/Rhcc8+45P8BsxUQJMjPt+m50pD6gECnu6HMAQHEDYrQV+BiK4PZopygd3sKo4DHiOuJcoepiMeJoVzuG9DpsH5Ny5miQCnEQGWMnmjrt/aGR/85kc+gAKuI8q6DiWuV79vNPVJJ+dzAzlSwHP0HeZzLfQcPHkSsexWfLn7WG8ShZDVexO0CBpw2LvMdFDiEeKsjIh6S6QHYpcdg55rRFbcbE7kFSzQXzKW+AW5cHdeVsDfqQ0DtQ0Ci7qJFuhMzIBWWyTVax6XLB5krJG3xpCtPLwxn0H2oegCcbwYzWjCyJ0+ArtRNmiAu9w5kCCOeh61r9LumaMadp/++UFK+6DpciskjlejP0KInORPOLI2cnkhu8x5kOrlkbgJMFjDK+WxxhTihLVbyL11qhcfUAFt4FMl8CC6DjGeZfMnoJjNa5JPWgA+aIihjUwtgch2AAi73HmSSu+U6sV4wW5hQbYFIux5UafAyJkl5l08lma2MW7wHBd0gB3al7oUjUYWh1H14n1+GniQV2kMj0RkZj5+njLOkiSH6c9u/QeJAOTAabE+n8w34oitR8s5qWyBSHdo2bsPzzTuAw0ddpMskBnCrdyBDoWBqApNbj47v0p9Wign3N7ArT9AeHoPnW2LxQ2dwc8vygBncAd1KeH5CNN7HeMEJ/DA2Krn2VN2DfdN29ob63ZmtW+QW70G7L4XhtEM0/m5JkU7Sk6xCW2gUOqMTYY+Ig1jVRL9tK6OLtbzCUvCQL8nqqeHdWZguKoMztwAOVS6649OUBWjnsIdFM6nOBrimqUWX2TnyAoP0R3RmH0Rvihr26AS826tFH3VNB+W8Y2usspCn6i5Q81CpC7f+BX5+vwBuUorIe+yLPgAAAABJRU5ErkJggg==</bitmap>
+                      <bitmap length="925">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAz9JREFUSEutVFtPE0EY5aKgL+iPMAbwguGiYLgqEFpBFKTVggWCNEGDMSpoQtsoYDTRRCNvPJhoYqKC2IKi0YKFBxGBAEoRCdTiLZVrhGDF3Z3jt+vERy2Vk5zs7sw538x83zfr5w0A+BNX8c+VB242jrKaK99okTV8aOUg737edMHjUOUAldWv6TuBT60MKOBqsfry/LBag7EsrTC+Xyeg/MxHPr0yQN9oJ2ofMVbTAlS3YCQzj+Fa/Rhcc8+45P8BsxUQJMjPt+m50pD6gECnu6HMAQHEDYrQV+BiK4PZopygd3sKo4DHiOuJcoepiMeJoVzuG9DpsH5Ny5miQCnEQGWMnmjrt/aGR/85kc+gAKuI8q6DiWuV79vNPVJJ+dzAzlSwHP0HeZzLfQcPHkSsexWfLn7WG8ShZDVexO0CBpw2LvMdFDiEeKsjIh6S6QHYpcdg55rRFbcbE7kFSzQXzKW+AW5cHdeVsDfqQ0DtQ0Ci7qJFuhMzIBWWyTVax6XLB5krJG3xpCtPLwxn0H2oegCcbwYzWjCyJ0+ArtRNmiAu9w5kCCOeh61r9LumaMadp/++UFK+6DpciskjlejP0KInORPOLI2cnkhu8x5kOrlkbgJMFjDK+WxxhTihLVbyL11qhcfUAFt4FMl8CC6DjGeZfMnoJjNa5JPWgA+aIihjUwtgch2AAi73HmSSu+U6sV4wW5hQbYFIux5UafAyJkl5l08lma2MW7wHBd0gB3al7oUjUYWh1H14n1+GniQV2kMj0RkZj5+njLOkiSH6c9u/QeJAOTAabE+n8w34oitR8s5qWyBSHdo2bsPzzTuAw0ddpMskBnCrdyBDoWBqApNbj47v0p9Wign3N7ArT9AeHoPnW2LxQ2dwc8vygBncAd1KeH5CNN7HeMEJ/DA2Krn2VN2DfdN29ob63ZmtW+QW70G7L4XhtEM0/m5JkU7Sk6xCW2gUOqMTYY+Ig1jVRL9tK6OLtbzCUvCQL8nqqeHdWZguKoMztwAOVS6649OUBWjnsIdFM6nOBrimqUWX2TnyAoP0R3RmH0Rvihr26AS826tFH3VNB+W8Y2usspCn6i5Q81CpC7f+BX5+vwBuUorIe+yLPgAAAABJRU5ErkJggg==</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">a4108f70-0811-4fbe-8ea5-e64928bd7aa1</item>
@@ -1983,7 +1956,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="13">
+            <chunk name="Object" index="12">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">1e936df3-0eea-4246-8549-514cb8862b7a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh</item>
@@ -2041,7 +2014,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="14">
+            <chunk name="Object" index="13">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">1e936df3-0eea-4246-8549-514cb8862b7a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh</item>
@@ -2099,7 +2072,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="15">
+            <chunk name="Object" index="14">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2144,7 +2117,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="16">
+            <chunk name="Object" index="15">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2189,7 +2162,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="17">
+            <chunk name="Object" index="16">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2234,7 +2207,7 @@ COMPAS FAB v0.27.0</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="18">
+            <chunk name="Object" index="17">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -2515,7 +2488,7 @@ F = Frame.worldXY().transformed(T * R)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="19">
+            <chunk name="Object" index="18">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -2545,7 +2518,7 @@ class CompasToRhinoGeometry(component):
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="1106">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEAAACxABrSO9dQAAA/RJREFUSEu1lW9MlWUYxt8J0kEkQTiExw4IeILIIdgcTZRVo5mSiw/S9ANKRhuV0y3SMRebMz/4h8lma8Vy0DD5UDbBxpyZbrkasxP9mcs2Tzn/pCzDzUBMD+nVdT2c591RX2x+6N5+e97zPue5r+e+7+e5X4c2KUYSmUJSSRrJIFnkEZJJ/LF3mnuYJJOHyGSi9RNaIvGRFDKdZJNHSQF5jDxOCkko9i6HzCQSlZiE7iuiXUwj2mEuKSJL0qf7hznCnxWMBnNnD/K5i7xKSkkxkViAaK18JBBPU7hKw2xSQrqSknyoqFyGfT0RbNmxHytWbUBewRxwDlNT0277swLXMjKzB/hbIkqjUqsoPEUU6ixSzV2P+JJTsHL1Rux6/4jh7a370L43jKMnooa29mPIL6wwYmQOUTqnEtXQU0D5LJqUkIhQYSk+/HjAOOr98rIR6GYUVqy+cRv8wadQ9EyHFSgjqolqIQHPOmgHSg1q14axuLYVi55rQMm8Z7GqocU4ltj8RXXIDq1Afvk2lCztswKqh+pm6+ApECRzCV7ZHHVZWn8Edc2XUfPyfgTyFtwOLXzXOL5LwEZwXwFF4Clgn/NK6o1TKyD0/9g6bVAH5b9TVNMY9hTQ3ETQ4zWOupwTCqjIOg0mJXIsyp9vddOkuY4YXT4H3ekOXk9zRd4k6UQXVRdWqbIYm0F0udwdx0egqDQX7/yTGa7zA0QpsrdatVC6NApjuihqA54CQnPxzj/Ld7Au4Io0EW1Sl1VtRui3brkx9R8dNYRK61BZs8fs+m6BeOe9xQ76nnTQFHJF3gJQSyJRYIyjMb43pgJJ8Z2U1Myf0jJyryck+pAwORnZsypR9nSLcWJzrp3L+eEKB0erHDTPHX/f2dmJ62O30H9hFB98N4S2flM7Y+qGypdCUyTqnCr6GtKb4c+/xNE4IQc1audy/tULDr5Z7qC6YHx+bd8FrOk5h41fXMTpKzdcATUpiag4tl3rZKk/qQGGePZGOTYTNbcNxOxczlsWjDsvf2MHVn56xtD149AdKdLZ1TdBx0pdUcdNEenoqYXb4tnC6d4YEbvzssbteLE74rJn4M97BIQ6oYQUkf26SUyjkKi+aAGurVXO+YyXNrWh6qNf7uDwr1dx/OywK2DNCsVjBTVKTFFJIDJy8x80HTqLwZEoTg/9jdc+P4Py9pNm1FxV56l7BLzMCik6RaHLNHP0FsZ6Tl1B8e4fDO+dGMQwnWr89vcRM+o9//tAJgGlKEf5bTgQQXBn2OWJ3d+jY+APXBy+ic3HzpvfZtUDmFKUSd8VEqje+zOmbe13yWkN4/zVG1jf9xu+PveXERpf9r+a4/wL0dlcWvN3v/YAAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="1106">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDwAACw8BkvkDpQAAA/RJREFUSEu1lW9MlWUYxt8J0kEkQTiExw4IeILIIdgcTZRVo5mSiw/S9ANKRhuV0y3SMRebMz/4h8lma8Vy0DD5UDbBxpyZbrkasxP9mcs2Tzn/pCzDzUBMD+nVdT2c591RX2x+6N5+e97zPue5r+e+7+e5X4c2KUYSmUJSSRrJIFnkEZJJ/LF3mnuYJJOHyGSi9RNaIvGRFDKdZJNHSQF5jDxOCkko9i6HzCQSlZiE7iuiXUwj2mEuKSJL0qf7hznCnxWMBnNnD/K5i7xKSkkxkViAaK18JBBPU7hKw2xSQrqSknyoqFyGfT0RbNmxHytWbUBewRxwDlNT0277swLXMjKzB/hbIkqjUqsoPEUU6ixSzV2P+JJTsHL1Rux6/4jh7a370L43jKMnooa29mPIL6wwYmQOUTqnEtXQU0D5LJqUkIhQYSk+/HjAOOr98rIR6GYUVqy+cRv8wadQ9EyHFSgjqolqIQHPOmgHSg1q14axuLYVi55rQMm8Z7GqocU4ltj8RXXIDq1Afvk2lCztswKqh+pm6+ApECRzCV7ZHHVZWn8Edc2XUfPyfgTyFtwOLXzXOL5LwEZwXwFF4Clgn/NK6o1TKyD0/9g6bVAH5b9TVNMY9hTQ3ETQ4zWOupwTCqjIOg0mJXIsyp9vddOkuY4YXT4H3ekOXk9zRd4k6UQXVRdWqbIYm0F0udwdx0egqDQX7/yTGa7zA0QpsrdatVC6NApjuihqA54CQnPxzj/Ld7Au4Io0EW1Sl1VtRui3brkx9R8dNYRK61BZs8fs+m6BeOe9xQ76nnTQFHJF3gJQSyJRYIyjMb43pgJJ8Z2U1Myf0jJyryck+pAwORnZsypR9nSLcWJzrp3L+eEKB0erHDTPHX/f2dmJ62O30H9hFB98N4S2flM7Y+qGypdCUyTqnCr6GtKb4c+/xNE4IQc1audy/tULDr5Z7qC6YHx+bd8FrOk5h41fXMTpKzdcATUpiag4tl3rZKk/qQGGePZGOTYTNbcNxOxczlsWjDsvf2MHVn56xtD149AdKdLZ1TdBx0pdUcdNEenoqYXb4tnC6d4YEbvzssbteLE74rJn4M97BIQ6oYQUkf26SUyjkKi+aAGurVXO+YyXNrWh6qNf7uDwr1dx/OywK2DNCsVjBTVKTFFJIDJy8x80HTqLwZEoTg/9jdc+P4Py9pNm1FxV56l7BLzMCik6RaHLNHP0FsZ6Tl1B8e4fDO+dGMQwnWr89vcRM+o9//tAJgGlKEf5bTgQQXBn2OWJ3d+jY+APXBy+ic3HzpvfZtUDmFKUSd8VEqje+zOmbe13yWkN4/zVG1jf9xu+PveXERpf9r+a4/wL0dlcWvN3v/YAAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">74a50a54-18fd-4047-a189-aa2a5d78cf59</item>
@@ -2640,7 +2613,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="20">
+            <chunk name="Object" index="19">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2685,7 +2658,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="21">
+            <chunk name="Object" index="20">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2730,7 +2703,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="22">
+            <chunk name="Object" index="21">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2775,7 +2748,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="23">
+            <chunk name="Object" index="22">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2828,7 +2801,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="24">
+            <chunk name="Object" index="23">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2873,7 +2846,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="25">
+            <chunk name="Object" index="24">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2918,7 +2891,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="26">
+            <chunk name="Object" index="25">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -2963,7 +2936,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="27">
+            <chunk name="Object" index="26">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -2977,12 +2950,12 @@ from compas.geometry import Rotation
 from compas.geometry import Frame
 from compas.geometry import Translation
 R = Rotation.from_euler_angles([math.radians(A), math.radians(B), math.radians(C)], False, 'zyx')
-T = Translation.from_vector((X/1000,Y/1000,Z/1000))
+T = Translation.from_vector((X,Y,Z))
 F = Frame.worldXY().transformed(T * R)</item>
                     <item name="Description" type_name="gh_string" type_code="10">GhPython provides a Python script component</item>
                     <item name="EditorLocation" type_name="gh_drawing_point" type_code="30">
-                      <X>-8</X>
-                      <Y>-8</Y>
+                      <X>156</X>
+                      <Y>156</Y>
                     </item>
                     <item name="EditorSize" type_name="gh_drawing_size" type_code="32">
                       <W>558</W>
@@ -3244,7 +3217,7 @@ F = Frame.worldXY().transformed(T * R)</item>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="28">
+            <chunk name="Object" index="27">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">410755b1-224a-4c1e-a407-bf32fb45ea7e</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
@@ -3274,7 +3247,7 @@ class CompasToRhinoGeometry(component):
                     <item name="HideOutput" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">2</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="1105">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEQAACxEBf2RfkQAAA/NJREFUSEu1lW1MlWUYx58J0iElQXk5QJx48QiSQ6g1miRLR0slJx+k6QcMjTZSl5ukYy02V34wY7HZWjEdOEw+pE6osebrpqsxO1E5l24ec75kTMXNQE2w+Pf/35z72VEfbH7o2n67n/Pc577+93Vd9309Dm1ChDjyJEkgiWQaSSVpJJmkRN5p7ikST54gE4nWj2uxxEcmkanET54meWQGmUnySTDyLkAyiUQlJqFHimgXU4h2+AwpIAunTksd5IiU1MBIdm5BP587yFukmBQSiWUQrZWPGOJpCldpmE6KSEdcnA9l5YuxuyuMD7buxbIVG5CTNwucw+SExNHUtMxb/vRAH39LRGlUahWFp4hCzSaV3PWQL34Slr+xEZ98fsjw/ubdaN0VwpETI4aW1qPIzS8zYmQWUTonE9XQU0D5LJgQE4tgfjG2f9lnHHUfvmYEOhmFFaut34KUrBdRMK/NCpQQ1US1kIBnHbQDpQbVa0N4tboZc1+pQ9Fz87Girsk4ltgLc2vgDy5DbukWFC3qsQKqh+pm6+ApkEVmE7y5acRlUe0h1DReQ9XKvcjImTMafOlT4/gBARvBIwUUgaeAfc4pqjVOrYDQ/yPrtEEdlP9OUVV9yFNAc+NBj7c46nKOK6Ai6zSYlMixKF3Q7KZJc20ROnwOOpMcrE50RdaTJKKLqgurVFmMpRNdLnfH0REoKs1FO/8q3XW+nyhF9larFkqXRmFMF0VtwFNAaC7a+b5cB+9kuCINRJvUZVWbEfqtW25M/UdHDcHiGpRX7TC7flAg2nl3oYOe5x00BF2RdwFUk/AocI+jMb43pgJJ8cOERP/JpOTsOzGxPsRMjIc/uxwlLzcZJzbn2rmcHyhzcKTCQePssfft7e24c+8f9F6+jS9+HEBLr6mdMXVD5UuhKRJ1ThV9FelOSZvxB0fjhHytUTuX82OvOfh+qYPKvLH5tT2XsarrIjYevIKzN+66AmpSElFxbLvWyVJ/UgMM8uzd5thI1Nw2ELNzOW+aM+a8dM1WLN9z3tDxy8B9KdLZ1TdBx0pdUcdNEenoqYXb4tnC6d4YEbvzkvqPsKQz7LKj7/pDAkKdUEKKyH7dJKZRSFRftAyurVbO+YzX32tBxc4z93Hg3E0cvzDoClizQtFYQY0SU1QSCA8N/42Gby+gf2gEZwf+wtvfnEdp6ykzaq6i/fRDAl5mhRSdotBlyhzmUew6fQOF2342fHaiH4N0qvGH34fMqPf872OZBJSigPJbtz+MrI9DLs9u+wltfVdxZXAYm45eMr/NqscwpSiZvsskULnrV0zZ3OsSaA7h0s27WNfzG767+KcRGlv2v5rj/AtMc1yc0XtmoQAAAABJRU5ErkJggg==</bitmap>
+                      <bitmap length="1105">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEAAACxABrSO9dQAAA/NJREFUSEu1lW1MlWUYx58J0iElQXk5QJx48QiSQ6g1miRLR0slJx+k6QcMjTZSl5ukYy02V34wY7HZWjEdOEw+pE6osebrpqsxO1E5l24ec75kTMXNQE2w+Pf/35z72VEfbH7o2n67n/Pc577+93Vd9309Dm1ChDjyJEkgiWQaSSVpJJmkRN5p7ikST54gE4nWj2uxxEcmkanET54meWQGmUnySTDyLkAyiUQlJqFHimgXU4h2+AwpIAunTksd5IiU1MBIdm5BP587yFukmBQSiWUQrZWPGOJpCldpmE6KSEdcnA9l5YuxuyuMD7buxbIVG5CTNwucw+SExNHUtMxb/vRAH39LRGlUahWFp4hCzSaV3PWQL34Slr+xEZ98fsjw/ubdaN0VwpETI4aW1qPIzS8zYmQWUTonE9XQU0D5LJgQE4tgfjG2f9lnHHUfvmYEOhmFFaut34KUrBdRMK/NCpQQ1US1kIBnHbQDpQbVa0N4tboZc1+pQ9Fz87Girsk4ltgLc2vgDy5DbukWFC3qsQKqh+pm6+ApkEVmE7y5acRlUe0h1DReQ9XKvcjImTMafOlT4/gBARvBIwUUgaeAfc4pqjVOrYDQ/yPrtEEdlP9OUVV9yFNAc+NBj7c46nKOK6Ai6zSYlMixKF3Q7KZJc20ROnwOOpMcrE50RdaTJKKLqgurVFmMpRNdLnfH0REoKs1FO/8q3XW+nyhF9larFkqXRmFMF0VtwFNAaC7a+b5cB+9kuCINRJvUZVWbEfqtW25M/UdHDcHiGpRX7TC7flAg2nl3oYOe5x00BF2RdwFUk/AocI+jMb43pgJJ8cOERP/JpOTsOzGxPsRMjIc/uxwlLzcZJzbn2rmcHyhzcKTCQePssfft7e24c+8f9F6+jS9+HEBLr6mdMXVD5UuhKRJ1ThV9FelOSZvxB0fjhHytUTuX82OvOfh+qYPKvLH5tT2XsarrIjYevIKzN+66AmpSElFxbLvWyVJ/UgMM8uzd5thI1Nw2ELNzOW+aM+a8dM1WLN9z3tDxy8B9KdLZ1TdBx0pdUcdNEenoqYXb4tnC6d4YEbvzkvqPsKQz7LKj7/pDAkKdUEKKyH7dJKZRSFRftAyurVbO+YzX32tBxc4z93Hg3E0cvzDoClizQtFYQY0SU1QSCA8N/42Gby+gf2gEZwf+wtvfnEdp6ykzaq6i/fRDAl5mhRSdotBlyhzmUew6fQOF2342fHaiH4N0qvGH34fMqPf872OZBJSigPJbtz+MrI9DLs9u+wltfVdxZXAYm45eMr/NqscwpSiZvsskULnrV0zZ3OsSaA7h0s27WNfzG767+KcRGlv2v5rj/AtMc1yc0XtmoQAAAABJRU5ErkJggg==</bitmap>
                     </item>
                     <item name="InputIsPath" type_name="gh_bool" type_code="1">false</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">ae1e15ad-167d-4a59-8c62-1444daa7de9c</item>
@@ -3369,7 +3342,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="29">
+            <chunk name="Object" index="28">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">fbac3e32-f100-4292-8692-77240a42fd1a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Point</item>
@@ -3416,7 +3389,7 @@ class CompasToRhinoGeometry(component):
                                 <item name="Coordinate" type_name="gh_point3d" type_code="51">
                                   <X>0.253996314702396</X>
                                   <Y>0.106072626757661</Y>
-                                  <Z>0</Z>
+                                  <Z>0.786836283584327</Z>
                                 </item>
                               </items>
                             </chunk>
@@ -3428,7 +3401,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="30">
+            <chunk name="Object" index="29">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9abae6b7-fa1d-448c-9209-4a8155345841</item>
                 <item name="Name" type_name="gh_string" type_code="10">Deconstruct</item>
@@ -3565,7 +3538,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="31">
+            <chunk name="Object" index="30">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2b9bf01d-5fe5-464c-b0b3-b469eb5f2efb</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh Edges</item>
@@ -3581,7 +3554,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2794</X>
                           <Y>113</Y>
@@ -3592,7 +3565,6 @@ class CompasToRhinoGeometry(component):
                           <X>2828</X>
                           <Y>145</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -3607,7 +3579,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2796</X>
                               <Y>115</Y>
@@ -3618,7 +3590,6 @@ class CompasToRhinoGeometry(component):
                               <X>2806</X>
                               <Y>145</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -3635,7 +3606,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2843</X>
                               <Y>115</Y>
@@ -3646,7 +3617,6 @@ class CompasToRhinoGeometry(component):
                               <X>2854</X>
                               <Y>125</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -3663,7 +3633,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2843</X>
                               <Y>135</Y>
@@ -3674,7 +3644,6 @@ class CompasToRhinoGeometry(component):
                               <X>2854</X>
                               <Y>145</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -3691,7 +3660,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2843</X>
                               <Y>155</Y>
@@ -3702,7 +3671,6 @@ class CompasToRhinoGeometry(component):
                               <X>2854</X>
                               <Y>165</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -3711,7 +3679,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="32">
+            <chunk name="Object" index="31">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">537b0419-bbc2-4ff4-bf08-afe526367b2c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Custom Preview</item>
@@ -3728,7 +3696,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="3">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3002</X>
                           <Y>142</Y>
@@ -3739,7 +3707,6 @@ class CompasToRhinoGeometry(component):
                           <X>3036</X>
                           <Y>164</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -3755,7 +3722,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3004</X>
                               <Y>144</Y>
@@ -3766,7 +3733,6 @@ class CompasToRhinoGeometry(component):
                               <X>3014</X>
                               <Y>154</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -3783,7 +3749,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3004</X>
                               <Y>164</Y>
@@ -3794,7 +3760,6 @@ class CompasToRhinoGeometry(component):
                               <X>3014</X>
                               <Y>174</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -3833,7 +3798,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="33">
+            <chunk name="Object" index="32">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9c53bac0-ba66-40bd-8154-ce9829b9db1a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Colour Swatch</item>
@@ -3853,7 +3818,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2898</X>
                           <Y>167</Y>
@@ -3864,14 +3829,13 @@ class CompasToRhinoGeometry(component):
                           <X>2898.543</X>
                           <Y>167.6405</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="34">
+            <chunk name="Object" index="33">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
                 <item name="Name" type_name="gh_string" type_code="10">Relay</item>
@@ -3890,7 +3854,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2498</X>
                           <Y>147</Y>
@@ -3901,14 +3865,13 @@ class CompasToRhinoGeometry(component):
                           <X>2518</X>
                           <Y>155</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="35">
+            <chunk name="Object" index="34">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -3963,7 +3926,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="36">
+            <chunk name="Object" index="35">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9c53bac0-ba66-40bd-8154-ce9829b9db1a</item>
                 <item name="Name" type_name="gh_string" type_code="10">Colour Swatch</item>
@@ -3983,7 +3946,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2898</X>
                           <Y>120</Y>
@@ -3994,14 +3957,13 @@ class CompasToRhinoGeometry(component):
                           <X>2898.661</X>
                           <Y>120.3858</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                   </chunks>
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="37">
+            <chunk name="Object" index="36">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">537b0419-bbc2-4ff4-bf08-afe526367b2c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Custom Preview</item>
@@ -4018,7 +3980,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="3">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>3002</X>
                           <Y>89</Y>
@@ -4029,7 +3991,6 @@ class CompasToRhinoGeometry(component):
                           <X>3036</X>
                           <Y>111</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -4045,7 +4006,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3004</X>
                               <Y>91</Y>
@@ -4056,7 +4017,6 @@ class CompasToRhinoGeometry(component):
                               <X>3014</X>
                               <Y>101</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4073,7 +4033,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>3004</X>
                               <Y>111</Y>
@@ -4084,7 +4044,6 @@ class CompasToRhinoGeometry(component):
                               <X>3014</X>
                               <Y>121</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -4123,7 +4082,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="38">
+            <chunk name="Object" index="37">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">ba2d8f57-0738-42b4-b5a5-fe4d853517eb</item>
                 <item name="Name" type_name="gh_string" type_code="10">Deconstruct Mesh</item>
@@ -4139,7 +4098,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="6">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2561</X>
                           <Y>113</Y>
@@ -4150,7 +4109,6 @@ class CompasToRhinoGeometry(component):
                           <X>2595</X>
                           <Y>155</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -4165,7 +4123,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2563</X>
                               <Y>115</Y>
@@ -4176,7 +4134,6 @@ class CompasToRhinoGeometry(component):
                               <X>2573</X>
                               <Y>155</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4193,7 +4150,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2610</X>
                               <Y>115</Y>
@@ -4204,7 +4161,6 @@ class CompasToRhinoGeometry(component):
                               <X>2619</X>
                               <Y>125</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4221,7 +4177,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2610</X>
                               <Y>135</Y>
@@ -4232,7 +4188,6 @@ class CompasToRhinoGeometry(component):
                               <X>2619</X>
                               <Y>145</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4249,7 +4204,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2610</X>
                               <Y>155</Y>
@@ -4260,7 +4215,6 @@ class CompasToRhinoGeometry(component):
                               <X>2619</X>
                               <Y>165</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4277,7 +4231,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2610</X>
                               <Y>175</Y>
@@ -4288,7 +4242,6 @@ class CompasToRhinoGeometry(component):
                               <X>2619</X>
                               <Y>185</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4297,7 +4250,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="39">
+            <chunk name="Object" index="38">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">e2c0f9db-a862-4bd9-810c-ef2610e7a56f</item>
                 <item name="Name" type_name="gh_string" type_code="10">Construct Mesh</item>
@@ -4313,7 +4266,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="5">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2640</X>
                           <Y>113</Y>
@@ -4324,7 +4277,6 @@ class CompasToRhinoGeometry(component):
                           <X>2671</X>
                           <Y>145</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
@@ -4340,7 +4292,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2642</X>
                               <Y>115</Y>
@@ -4351,7 +4303,6 @@ class CompasToRhinoGeometry(component):
                               <X>2650.5</X>
                               <Y>125</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -4424,7 +4375,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="2">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2642</X>
                               <Y>135</Y>
@@ -4435,7 +4386,6 @@ class CompasToRhinoGeometry(component):
                               <X>2650.5</X>
                               <Y>145</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                         <chunk name="PersistentData">
@@ -4475,7 +4425,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2642</X>
                               <Y>155</Y>
@@ -4486,7 +4436,6 @@ class CompasToRhinoGeometry(component):
                               <X>2650.5</X>
                               <Y>165</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4502,7 +4451,7 @@ class CompasToRhinoGeometry(component):
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
-                          <items count="3">
+                          <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>2686</X>
                               <Y>115</Y>
@@ -4513,7 +4462,6 @@ class CompasToRhinoGeometry(component):
                               <X>2696</X>
                               <Y>145</Y>
                             </item>
-                            <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                           </items>
                         </chunk>
                       </chunks>
@@ -4522,7 +4470,7 @@ class CompasToRhinoGeometry(component):
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="40">
+            <chunk name="Object" index="39">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
                 <item name="Name" type_name="gh_string" type_code="10">Relay</item>
@@ -4541,7 +4489,7 @@ class CompasToRhinoGeometry(component):
                   </items>
                   <chunks count="1">
                     <chunk name="Attributes">
-                      <items count="3">
+                      <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>2721</X>
                           <Y>137</Y>
@@ -4552,9 +4500,58 @@ class CompasToRhinoGeometry(component):
                           <X>2741</X>
                           <Y>145</Y>
                         </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
                       </items>
                     </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="40">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+                <item name="Name" type_name="gh_string" type_code="10">Group</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="8">
+                    <item name="Border" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Colour" type_name="gh_drawing_color" type_code="36">
+                      <ARGB>150;255;178;254</ARGB>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+                    <item name="ID" index="0" type_name="gh_guid" type_code="9">12e98163-3437-452e-8ae4-b1b179f3a3ec</item>
+                    <item name="ID_Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">db2f9644-9099-4c51-84f7-9163491b888f</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes" />
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="41">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+                <item name="Name" type_name="gh_string" type_code="10">Group</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="8">
+                    <item name="Border" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Colour" type_name="gh_drawing_color" type_code="36">
+                      <ARGB>150;255;178;254</ARGB>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+                    <item name="ID" index="0" type_name="gh_guid" type_code="9">0af7a11e-318e-4a22-a222-e782e9ff7abd</item>
+                    <item name="ID_Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">7bb28e02-2769-4c49-992b-e78d52458336</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes" />
                   </chunks>
                 </chunk>
               </chunks>
@@ -4566,7 +4563,7 @@ class CompasToRhinoGeometry(component):
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="2593">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</bitmap>
+          <bitmap length="4081">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</bitmap>
         </item>
       </items>
     </chunk>
