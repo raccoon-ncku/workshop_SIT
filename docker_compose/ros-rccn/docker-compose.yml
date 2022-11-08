@@ -1,0 +1,50 @@
+version: '3.1'
+services:
+  ros-master:
+    image: ros-rccn
+    ports:
+      - "11311:11311"
+    command:
+      - roscore
+
+  ros-bridge:
+    image: ros-rccn
+    environment:
+      - "ROS_HOSTNAME=ros-bridge"
+      - "ROS_MASTER_URI=http://ros-master:11311"
+    ports:
+      - "9090:9090"
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - rosbridge_server
+      - rosbridge_websocket.launch
+
+  ros-fileserver:
+    image: ros-rccn
+    environment:
+      - ROS_HOSTNAME=ros-fileserver
+      - ROS_MASTER_URI=http://ros-master:11311
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - file_server
+      - file_server.launch
+
+  moveit-demo:
+    image: ros-rccn
+    environment:
+      - ROS_HOSTNAME=moveit-demo
+      - ROS_MASTER_URI=http://ros-master:11311
+      - DISPLAY=gui:0.0
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - rccn_west_robot_moveit_config
+      - demo.launch

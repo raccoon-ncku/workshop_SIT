@@ -66,3 +66,6 @@ Check if the tab COMPAS exists in Grasshopper. Place the `info` component on the
 A docker image file around 4GB needs to be deployed to the computer before the session.
 
 The computer should have access to the internet(at least github.com) during the session.
+
+## Slides
+[slides](https://docs.google.com/presentation/d/12ieSXxlZcldEHS5Oq1aI8YYjDYtOCbjdaSPXm2D_5kw/edit?usp=sharing)
