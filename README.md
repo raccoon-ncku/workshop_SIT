@@ -1,4 +1,4 @@
-# Workshop SIT 2022
+# Workshop SIT 2023
 ## Robotic application hands-on session- SIE 3015 Automation and control in building
 The session will introduce the workflow of simulating industrial robots in CAD(Rhino) with ROS (Robot Operating System) as the backend. 
 
@@ -8,7 +8,6 @@ The session will introduce the workflow of simulating industrial robots in CAD(R
 * (15 min) Robotic fundamentals
 * (20 min) Hands-on: Robot simulation in Rhino with ROS
 * (20 min) Hands-on: Robotic fabrication and simulation in Rhino with ROS
-* (20 min) Hands-on: (WIP) AGV+industrial robot simulation in Rhino with ROS
 
 ## Computer Setup
 ### Program List
