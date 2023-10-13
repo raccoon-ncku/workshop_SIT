@@ -1,14 +1,14 @@
 version: '3.1'
 services:
   ros-master:
-    image: rccn-ros
+    image: rccn-ros:latest
     ports:
       - "11311:11311"
     command:
       - roscore
 
   ros-bridge:
-    image: rccn-ros
+    image: rccn-ros:latest
     environment:
       - "ROS_HOSTNAME=ros-bridge"
       - "ROS_MASTER_URI=http://ros-master:11311"
@@ -23,7 +23,7 @@ services:
       - rosbridge_websocket.launch
 
   ros-fileserver:
-    image: rccn-ros
+    image: rccn-ros:latest
     environment:
       - ROS_HOSTNAME=ros-fileserver
       - ROS_MASTER_URI=http://ros-master:11311
@@ -36,7 +36,7 @@ services:
       - file_server.launch
 
   moveit-demo:
-    image: rccn-ros
+    image: rccn-ros:latest
     environment:
       - ROS_HOSTNAME=moveit-demo
       - ROS_MASTER_URI=http://ros-master:11311
