@@ -98,7 +98,7 @@ Check if the tab COMPAS exists in Grasshopper. Place the `info` component on the
 ![compas_installed_in_rhino](assets/img/compas_installed_in_rhino.png)
 
 ## Docker Image
-A docker image file around 4GB needs to be deployed to the computer before the session. Please download the docker image (open source) via the google drive link below in every PC in SR-3D and 3E.
+A docker image file around 3GB needs to be deployed to the computer before the session. Please download the docker image (open source) via the google drive link below in every PC in SR-3D and 3E.
 [Google Drive Link](https://drive.google.com/drive/folders/1159IfPik13sScniSJwjBX9LQlO-e-gGp?usp=sharing)
 
 Once downloaded, please follow the steps below to load the image into Docker:
