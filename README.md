@@ -97,6 +97,18 @@ For more examples and ideas, visit:
 Check if the tab COMPAS exists in Grasshopper. Place the `info` component on the canvas to get more information.
 ![compas_installed_in_rhino](assets/img/compas_installed_in_rhino.png)
 
-## note
-A docker image file around 4GB needs to be deployed to the computer before the session.
+## Docker Image
+A docker image file around 4GB needs to be deployed to the computer before the session. Please download the docker image (open source) via the google drive link below in every PC in SR-3D and 3E.
+[Google Drive Link](https://drive.google.com/drive/folders/1159IfPik13sScniSJwjBX9LQlO-e-gGp?usp=sharing)
+
+Once downloaded, please follow the steps below to load the image into Docker:
+
+- If Google Drive compress the file into a `.zip` file, please unzip it first. The file should be named `rccn-ros-x64.tar`, and don't unzip the `.tar` file.
+- open Docker Desktop, make sure the docker engine is running.
+- open PowerShell, and navigate to the folder where `rccn-ros-x64.tar` is located
+- type in `docker load -i .\rccn-ros-x64.tar` then press enter, wait for the command to finish.
+
+After the command above is finished, open docker desktop and navigate to the image tab, check if there is a image named "rccn-ros". If thas is the case, its okay to delete the `.tar` file.
+
+## Note
 The computer should have access to the internet(at least github.com) during the session.
