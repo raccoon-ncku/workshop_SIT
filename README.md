@@ -18,11 +18,11 @@ The session will introduce the workflow of simulating industrial robots in CAD(R
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Initialize Developing Environment in Rhino
-The developing environment in Rhino need to be initialized before installing Python modules. This only needs to be done once on every computer. To do that, open Rhino and navigate to `Tools > PythonScript > Edit...`. Once the script editor shows up, the environment is successfully initialized, and Rhino could be closed.
+The developing environment in Rhino needs to be initialized before installing Python modules. This only needs to be done once on every computer. To do that, open Rhino and navigate to `Tools > PythonScript > Edit...`. Once the script editor shows up, the environment is successfully initialized, and Rhino can be closed.
 
 ### Python and Installation
 
-We use `conda` to make sure we have clean, isolated environment for Python and dependencies.
+We use `conda` to make sure we have a clean, isolated environment for Python and dependencies.
 
 First, open `Anaconda Powershell Prompt (miniconda3)` (Windows) or `Terminal` (macOS).
 
@@ -36,7 +36,7 @@ conda activate SIE3015
 > [!IMPORTANT]  
 > The commands above might take up to 20-30 minutes to finish.
 
-Finally, depending on your installed Rhino version, execute one of the flollowing:
+Finally, depending on your installed Rhino version, execute one of the following:
 
 #### Rhino 6
 ```sh
@@ -98,17 +98,17 @@ Check if the tab COMPAS exists in Grasshopper. Place the `info` component on the
 ![compas_installed_in_rhino](assets/img/compas_installed_in_rhino.png)
 
 ## Docker Image
-A docker image file around 3GB needs to be deployed to the computer before the session. Please download the docker image (open source) via the google drive link below in every PC in SR-3D and 3E.
+A docker image file of around 3GB needs to be deployed to the computer before the session. Please download the docker image (open source) via the Google Drive link below in every PC in SR-3D and 3E.
 [Google Drive Link](https://drive.google.com/drive/folders/1159IfPik13sScniSJwjBX9LQlO-e-gGp?usp=sharing)
 
 Once downloaded, please follow the steps below to load the image into Docker:
 
-- If Google Drive compress the file into a `.zip` file, please unzip it first. The file should be named `rccn-ros-x64.tar`, and don't unzip the `.tar` file.
-- open Docker Desktop, make sure the docker engine is running.
+- If Google Drive compresses the file into a `.zip` file, please unzip it first. The file should be named `rccn-ros-x64.tar`, and don't unzip the `.tar` file.
+- open Docker Desktop, and make sure the docker engine is running.
 - open PowerShell, and navigate to the folder where `rccn-ros-x64.tar` is located
-- type in `docker load -i .\rccn-ros-x64.tar` then press enter, wait for the command to finish.
+- type in `docker load -i .\rccn-ros-x64.tar` then press enter, and wait for the command to finish.
 
-After the command above is finished, open docker desktop and navigate to the image tab, check if there is a image named "rccn-ros". If thas is the case, its okay to delete the `.tar` file.
+After the command above is finished, open Docker Desktop and navigate to the image tab, check if there is an image named "rccn-ros". If thas is the case, it's okay to delete the `.tar` file.
 
 ## Final verification
 Open this repository in Visual Studio Code, find the file `docker-compose
