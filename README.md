@@ -110,5 +110,10 @@ Once downloaded, please follow the steps below to load the image into Docker:
 
 After the command above is finished, open docker desktop and navigate to the image tab, check if there is a image named "rccn-ros". If thas is the case, its okay to delete the `.tar` file.
 
+## Final verification
+Open this repository in Visual Studio Code, find the file `docker-compose
+.yml` in the `docker_compose
+/ros-rccn/` folder in vscode, right click on the file and select `Compose Up`. Then, open the example file `216_forward_kinematics_ros.ghx` in `/examples/robot_simulation/` in Grasshopper, and double click the `connect` toggle then click the `load` button on the top left corner of the Grasshopper window. If a robot appears in the Rhino window, the installation is successful.
+
 ## Note
 The computer should have access to the internet(at least github.com) during the session.
