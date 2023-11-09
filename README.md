@@ -9,6 +9,9 @@ The session will introduce the workflow of simulating industrial robots in CAD(R
 * (20 min) Hands-on: Robot simulation in Rhino with ROS
 * (20 min) Hands-on: Robotic fabrication and simulation in Rhino with ROS
 
+## Slides
+[slides](https://docs.google.com/presentation/d/12ieSXxlZcldEHS5Oq1aI8YYjDYtOCbjdaSPXm2D_5kw/edit?usp=sharing)
+
 ## Computer Setup
 ### Program List
 * Windows 10 Pro or above / Mac OS Sierra 10.12 or above
